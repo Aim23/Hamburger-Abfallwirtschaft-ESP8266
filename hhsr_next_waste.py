@@ -2,14 +2,20 @@ import time
 import json
 import paho.mqtt.client as mqtt
 
-broker_address = "192.168.2.88"     # mqtt Server adresse
-
 def on_connect(client, userdata, flags, rc):
     client.subscribe('/home/mqtt')
     # print("Connected with the result", str(rc))
 
 def on_publish(client, userdata, mid):
     pass
+
+try: 
+    with open('settings.json', 'r', encoding='utf-8') as f:
+        settings = json.load(f)
+except OSError:
+    print('Datei (settings.json) konnte nicht geöffnet werden!')
+
+broker_address = settings['broker_address']     # mqtt Server adresse
 
 client = mqtt.Client()
 client.on_connect = on_connect

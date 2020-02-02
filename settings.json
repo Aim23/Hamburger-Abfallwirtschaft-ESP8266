@@ -4,5 +4,6 @@
     "hausnummer": "1",
     "bestaetigung": "true",
     "mode": "search",
-    "suche": "Abfuhrtermine+suchen"
+    "suche": "Abfuhrtermine+suchen",
+    "broker_address" : "192.168.2.88"
 }
