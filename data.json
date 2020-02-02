@@ -1,0 +1,22 @@
+{
+    "gelbe Wertstofftonne/-sack": {
+        "Datum": "2020-02-03 16:00:00",
+        "Fällig": 0,
+        "Häufigkeit": "14-täglich"
+    },
+    "schwarze Restmülltonne": {
+        "Datum": "2020-02-05 16:00:00",
+        "Fällig": 2,
+        "Häufigkeit": "1 x wöchentlich"
+    },
+    "grüne Biotonne": {
+        "Datum": "2020-02-13 16:00:00",
+        "Fällig": 10,
+        "Häufigkeit": "14-täglich"
+    },
+    "blaue Papiertonne": {
+        "Datum": "2020-02-19 16:00:00",
+        "Fällig": 16,
+        "Häufigkeit": "alle 4 Wochen"
+    }
+}
